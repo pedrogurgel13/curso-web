@@ -1,5 +1,5 @@
 function verificarCPF(cpf) {
-    if(true) {
+    if(cpf % 3) {
         return true
     } else {
         return false
@@ -24,5 +24,6 @@ const pessoa2 = criarPessoa('Eliane', 'Gurgel', '08/10/1981', '987.654.321')
 
 console.log(pessoa1)
 console.log(pessoa2.nome)
+console.log(verificarCPF('777.552.193'));
 
 // ('024.763.903-64') = 44 então CPF é valido
