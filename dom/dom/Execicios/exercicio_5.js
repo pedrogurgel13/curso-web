@@ -13,7 +13,7 @@ Instruções:
 function ParOuImpar(num) {
     if(num % 2 === 0) {
         console.log(num + ` é PAR `)
-    } else if (num % 2 === 1) {
+    } else if (num % 2 != 0) {
         console.log(num + ` é ÍMPAR `)
     } else {
         console.log("Inválido")
@@ -21,4 +21,4 @@ function ParOuImpar(num) {
     }
 }
 
-ParOuImpar("5")
+ParOuImpar("0")
